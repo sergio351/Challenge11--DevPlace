@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UnidadesChevroletModelStoreContainer" CdmEntityContainer="UnidadesChevroletEntities">
+    <EntitySetMapping Name="Unidades">
+      <EntityTypeMapping TypeName="UnidadesChevroletModel.Unidades">
+        <MappingFragment StoreEntitySet="Unidades">
+          <ScalarProperty Name="idtecnologia" ColumnName="idtecnologia" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="modelo" ColumnName="modelo" />
+          <ScalarProperty Name="año" ColumnName="año" />
+          <ScalarProperty Name="kilometros" ColumnName="kilometros" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
